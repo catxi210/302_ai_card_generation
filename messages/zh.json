@@ -1,0 +1,443 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "styles": {
+    "POSTER_STYLES": {
+      "environment_protection": {
+        "title": "环境保护",
+        "description": "社区环保行动日程"
+      },
+      "literature": {
+        "title": "文学",
+        "description": "国际书展活动公告"
+      },
+      "art": {
+        "title": "艺术",
+        "description": "城市美术馆展览开幕通知"
+      },
+      "health": {
+        "title": "健康",
+        "description": "中心医院健康检查周宣传"
+      },
+      "science_and_technology": {
+        "title": "科技",
+        "description": "全国创新创业大赛预告"
+      },
+      "music": {
+        "title": "音乐",
+        "description": "蓓蕾音乐节隆重揭幕"
+      },
+      "perform": {
+        "title": "演出",
+        "description": "人民大剧院演出邀请"
+      },
+      "motion": {
+        "title": "运动",
+        "description": "市立体育馆年度马拉松邀请"
+      },
+      "delicious_food": {
+        "title": "美食",
+        "description": "国际美食文化周品鉴活动"
+      },
+      "education": {
+        "title": "教育",
+        "description": "大学公开课程系列讲座"
+      }
+    },
+    "PHILOSOPHICAL_STYLES": {
+      "significance": {
+        "title": "意义",
+        "description": "人活着是为了什么？"
+      },
+      "peace": {
+        "title": "平和",
+        "description": "和平始于内心的宁静"
+      },
+      "grow_up": {
+        "title": "成长",
+        "description": "最深的痛苦中也蕴含着成长的机会"
+      },
+      "attitude": {
+        "title": "心态",
+        "description": "所有的限制都始于头脑"
+      },
+      "love": {
+        "title": "爱",
+        "description": "爱是唯一能让世界变得更好的力量"
+      },
+      "courage": {
+        "title": "勇气",
+        "description": "审视自己的内心才是真正的勇敢"
+      },
+      "change": {
+        "title": "变革",
+        "description": "改变是永恒的唯一"
+      },
+      "persist_in": {
+        "title": "坚持",
+        "description": "生活中的奇迹往往源于坚持不懈的努力"
+      },
+      "wisdom": {
+        "title": "智慧",
+        "description": "智慧的最终目的在于应用而非积累"
+      },
+      "study": {
+        "title": "学习",
+        "description": "我们为何而学习？"
+      }
+    },
+    "QUOTE_STYLES": {
+      "hope": {
+        "title": "希望",
+        "description": "日出之前总是最黑暗的时刻",
+        "author": "托马斯·富勒"
+      },
+      "happiness": {
+        "title": "幸福",
+        "description": "幸福取决于我们自己",
+        "author": "亚里士多德"
+      },
+      "reflect": {
+        "title": "反思",
+        "description": "未经审视的生活不值得过",
+        "author": "苏格拉底"
+      },
+      "think": {
+        "title": "思考",
+        "description": "我思故我在",
+        "author": "笛卡尔"
+      },
+      "motivate": {
+        "title": "激励",
+        "description": "希望是一个强有力的激励工具",
+        "author": "尼克·维加纳特"
+      },
+      "dream": {
+        "title": "梦想",
+        "description": "没有梦想的人生是苍白的",
+        "author": "卡尔·桑德堡"
+      },
+      "power": {
+        "title": "力量",
+        "description": "给我一个支点，我就能撬动整个地球",
+        "author": "阿基米德"
+      },
+      "opportunity": {
+        "title": "机遇",
+        "description": "困难中蕴藏着机遇",
+        "author": "爱因斯坦"
+      },
+      "courage": {
+        "title": "勇气",
+        "description": "我们唯一值得恐惧的就是恐惧本身",
+        "author": "富兰克林·罗斯福"
+      },
+      "tough": {
+        "title": "坚韧",
+        "description": "那些杀不死我们的，使我们更强大",
+        "author": "尼采"
+      }
+    }
+  },
+  "fonts": {
+    "huiwenmingchao": "汇文明朝字体",
+    "xingshu": "行书",
+    "songti": "宋体",
+    "heiti": "黑体"
+  },
+  "action": {
+    "download_as_png": "下载为PNG",
+    "download_as_html": "下载为HTML",
+    "delete": "删除",
+    "change_style": "修改风格"
+  },
+  "status": {
+    "generating": "生成中",
+    "generating_failed": "生成失败",
+    "generating_success": "生成成功",
+    "downloading": "下载中"
+  },
+  "home": {
+    "header": {
+      "title": "AI 卡片生成"
+    }
+  },
+  "switch_title": {
+    "knowledge_card": "知识卡片",
+    "poster": "宣传海报",
+    "philosophy_card": "哲理卡片",
+    "quote_card": "语录引用",
+    "based_on_input": "基于输入",
+    "extract_quote": "提取金句"
+  },
+  "placeholder": {
+    "based_on_input": "请输入主题词或文章，AI基于输入生成卡片...",
+    "extract_quote": "请输入主题词或文章，AI提取金句创建...",
+    "poster": "请输入宣传海报内容...",
+    "philosophy_card": "请输入哲学主题...",
+    "quote_card": "请输入语录或名言...",
+    "select_text_position": "请选择文字位置",
+    "input_content": "请输入内容",
+    "input_style": "请输入卡片风格 e.g. 简约现代风格，文字排版简洁，有简单的图形元素或线条",
+    "pick_a_date": "请选择日期"
+  },
+  "label": {
+    "model_select": "模型选择",
+    "date_display": "日期显示",
+    "qr_code": "二维码",
+    "style_setting": "风格设置",
+    "quote_signature": "语录署名",
+    "text_position": "文字位置",
+    "knowledge-card": "知识卡片预览",
+    "philosophical-card": "哲理卡片预览",
+    "quote-reference": "语录引用预览",
+    "promotional-poster": "宣传海报预览",
+    "change_style": "修改风格",
+    "change_style_placeholder": "请输入你想要的风格描述...",
+    "generate_new_style": "生成新样式",
+    "upload_qr_code": "点击或拖动图片上传",
+    "edit_html": "编辑HTML"
+  },
+  "button": {
+    "generate": "生成",
+    "generating_with_count": "生成中 ({count}/{limit})",
+    "generating_limit_reached": "已达到生成限制 ({count}/{limit})",
+    "generating": "生成中",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "retry": "重试",
+    "edit": "编辑",
+    "deploy": "一键部署",
+    "style": "修改风格",
+    "download": "下载",
+    "download_svg": "下载SVG"
+  },
+  "toast": {
+    "task_limit_reached": "任务达到上限({limit})，请稍后再试",
+    "generation_failed": "生成失败，请重试",
+    "download_failed": "下载失败，请重试",
+    "download_success": "下载成功",
+    "author_required": "请输入语录署名",
+    "custom_style_required": "请输入自定义风格",
+    "model_required": "请选择模型",
+    "style_required": "请选择风格",
+    "text_position_required": "请选择文字位置",
+    "quote_content_required": "请输入引用内容",
+    "content_required": "请输入内容",
+    "change_style_required": "请输入风格描述",
+    "qr_code_required": "请输入二维码内容",
+    "date_required": "请选择日期",
+    "deploy_failed": "部署失败，请重试",
+    "deploy_success": "部署成功",
+    "deploying": "部署中...",
+    "html_updated": "HTML更新成功",
+    "qr_code_upload_failed": "二维码上传失败，请重试"
+  },
+  "select": {
+    "not_display": "不展示",
+    "image_upload": "图片上传",
+    "generate": "生成",
+    "random": "随机",
+    "template": "模板",
+    "custom": "自定义",
+    "left": "靠左对齐",
+    "center": "居中",
+    "right": "靠右对齐"
+  },
+  "global": {
+    "error": {
+      "copy_failed": "复制失败",
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服",
+      "code-10001": "缺少 302 API 密钥",
+      "code-10002": "该工具已禁用/删除，更多请访问 <Gw></Gw>",
+      "code-10003": "网络错误，请稍后重试",
+      "code-10004": "账户余额不足，创建属于自己的工具，更多请访问 <Gw></Gw>",
+      "code-10005": "账户凭证过期，请重新登录",
+      "code-10006": "账户总额度已达上限，更多请访问 <Gw></Gw>",
+      "code-10007": "账户日额度已达上限，更多请访问 <Gw></Gw>",
+      "code-10008": "当前无可用通道，更多请访问 <Gw></Gw>",
+      "code-10009": "不支持当前API功能，更多请访问 <Gw></Gw>",
+      "code-10010": "不支持当前API功能，更多请访问 <Gw></Gw>",
+      "code-10011": "无效的请求",
+      "code-10012": "该免费工具在本小时的额度已达上限，请访问 <Gw></Gw> 生成属于自己的工具",
+      "code-10018": "账户月额度已达上限，更多请访问 <Gw></Gw>",
+      "code-1024": "AI接口连接超时， 请稍后重试或者联系 <Gw></Gw>"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    },
+    "input_based": {
+      "title": "摄影",
+      "content": "摄影的艺术"
+    },
+    "extract_key": {
+      "title": "生命",
+      "content": "山野间的风轻抚过脸庞,带来泥土的芬芳。想起一句古语:一花一世界,一叶一菩提。这让我懂得,生命中每个微小的存在都值得珍视。"
+    }
+  },
+  "examples": {
+    "card_1": {
+      "input_based": {
+        "title": "摄影",
+        "content": "摄影的艺术"
+      },
+      "extract_key": {
+        "title": "生命",
+        "content": "山野间的风轻抚过脸庞,带来泥土的芬芳。想起一句古语:一花一世界,一叶一菩提。这让我懂得,生命中每个微小的存在都值得珍视。"
+      }
+    },
+    "card_2": {
+      "input_based": {
+        "title": "书法",
+        "content": "书法之美"
+      },
+      "extract_key": {
+        "title": "突破",
+        "content": "傍晚的田野,稻浪滚滚。记得爷爷说:一粒种子要破土而出,就必须经历黑暗。这告诉我们成长必然伴随着挑战和突破。"
+      }
+    },
+    "card_3": {
+      "input_based": {
+        "title": "生活",
+        "content": "生活的智慧"
+      },
+      "extract_key": {
+        "title": "包容",
+        "content": "站在海边看潮起潮落,内心无比平静。古人说:海纳百川,有容乃大。这启示我们要以开阔的胸襟面对生活,包容和接纳不同的人与事。"
+      }
+    },
+    "card_4": {
+      "input_based": {
+        "title": "生活",
+        "content": "生活的智慧"
+      },
+      "extract_key": {
+        "title": "包容",
+        "content": "站在海边看潮起潮落,内心无比平静。古人说:海纳百川,有容乃大。这启示我们要以开阔的胸襟面对生活,包容和接纳不同的人与事。"
+      }
+    },
+    "card_5": {
+      "input_based": {
+        "title": "梦想",
+        "content": "梦想的力量"
+      },
+      "extract_key": {
+        "title": "勇气",
+        "content": "晨曦中漫步,露珠晶莹剔透。曾有人说:生活不会亏待每一个努力向上的人。这给了我面对困境时继续前行的勇气。"
+      }
+    },
+    "card_6": {
+      "input_based": {
+        "title": "时光",
+        "content": "时光的痕迹"
+      },
+      "extract_key": {
+        "title": "行动",
+        "content": "清晨阳光透过窗户洒进房间,开启美好的一天。记得师父说过:\"种一棵树最好的时间是十年前,其次是现在。\" 这句话让我明白,行动永远不会太迟。"
+      }
+    },
+    "card_7": {
+      "input_based": {
+        "title": "阅读",
+        "content": "阅读的芳华"
+      },
+      "extract_key": {
+        "title": "局限",
+        "content": "站在山顶眺望远方,云海翻滚壮观。庄子说:\"井蛙不可以语于海,夏虫不可以语于冰。\" 提醒我们要拓宽视野,突破局限。"
+      }
+    },
+    "card_8": {
+      "input_based": {
+        "title": "青春",
+        "content": "青春的韶华"
+      },
+      "extract_key": {
+        "title": "考验",
+        "content": "春雨绵绵,滋润万物生长。记得那句:\"宝剑锋从磨砺出,梅花香自苦寒来。\" 这告诉我们,成功往往需要经历挫折和考验。"
+      }
+    },
+    "card_9": {
+      "input_based": {
+        "title": "幸福",
+        "content": "幸福的真谛"
+      },
+      "extract_key": {
+        "title": "耕耘",
+        "content": "春风拂面,看着院子里盛开的花朵。老人常说:\"一分耕耘,一分收获。\" 生活中的每一份付出,都会在未来某个时刻开花结果。"
+      }
+    },
+    "card_10": {
+      "input_based": {
+        "title": "自由",
+        "content": "自由的境界"
+      },
+      "extract_key": {
+        "title": "生活",
+        "content": "雨后的空气格外清新,让人心旷神怡。有句话说得好:\"生命如同一本书,愚蠢的人草草翻过,聪明的人细细品读。\" 这教会我们要用心感受生活的美好。"
+      }
+    },
+    "card_11": {
+      "input_based": {
+        "title": "旅行",
+        "content": "旅行的意义"
+      },
+      "extract_key": {
+        "title": "困境",
+        "content": "漫步在秋天的林间小道上,落叶纷纷。想起那句:\"不经一番寒彻骨,怎得梅花扑鼻香。\" 人生最美的风景,往往在经历困境后才能看到。"
+      }
+    },
+    "card_12": {
+      "input_based": {
+        "title": "音乐",
+        "content": "古典音乐的复兴"
+      },
+      "extract_key": {
+        "title": "理想",
+        "content": "坐在书房读书时,窗外鸟儿欢快鸣叫。苏轼说:\"古之立大事者,不惟有超世之才,亦必有坚忍不拔之志。\" 这激励我在追求理想时永不言弃。"
+      }
+    },
+    "card_13": {
+      "input_based": {
+        "title": "数字",
+        "content": "数字身份的迷宫"
+      },
+      "extract_key": {
+        "title": "坚强",
+        "content": "夜幕降临,城市霓虹闪烁。记得那句:\"人生不如意之事十之八九,但愿你,强大到无需倾诉。\" 这教会我们要学会在逆境中保持坚强,继续前行。"
+      }
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "auth": {
+    "description": "The creator has enabled verification, please fill in the sharing code below",
+    "form": {
+      "confirm_button": "Confirm",
+      "confirm_button_loading": "Verifying",
+      "input_code": "Please enter the sharing code",
+      "remember_code": "Remember sharing code"
+    },
+    "title": "Need to share code"
+  },
+  "styles": {
+    "POSTER_STYLES": {
+      "environment_protection": {
+        "title": "Environmental Protection",
+        "description": "Community Environmental Protection Action Schedule"
+      },
+      "literature": {
+        "title": "Literature",
+        "description": "International Book Fair Event Announcement"
+      },
+      "art": {
+        "title": "Art",
+        "description": "City Art Gallery Exhibition Opening Notice"
+      },
+      "health": {
+        "title": "Health",
+        "description": "Central Hospital Health Check Week Promotion"
+      },
+      "science_and_technology": {
+        "title": "Science and Technology",
+        "description": "National Innovation and Entrepreneurship Competition Preview"
+      },
+      "music": {
+        "title": "Music",
+        "description": "Bud Music Festival Grand Opening"
+      },
+      "perform": {
+        "title": "Performance",
+        "description": "People's Grand Theater Performance Invitation"
+      },
+      "motion": {
+        "title": "Sports",
+        "description": "Municipal Stadium Annual Marathon Invitation"
+      },
+      "delicious_food": {
+        "title": "Cuisine",
+        "description": "International Food Culture Week Tasting Event"
+      },
+      "education": {
+        "title": "Education",
+        "description": "University Open Course Series Lectures"
+      }
+    },
+    "PHILOSOPHICAL_STYLES": {
+      "significance": {
+        "title": "Meaning",
+        "description": "What is the purpose of human existence?"
+      },
+      "peace": {
+        "title": "Peace",
+        "description": "Peace begins with inner tranquility"
+      },
+      "grow_up": {
+        "title": "Growth",
+        "description": "Even in the deepest pain lies an opportunity for growth"
+      },
+      "attitude": {
+        "title": "Mindset",
+        "description": "All limitations begin in the mind"
+      },
+      "love": {
+        "title": "Love",
+        "description": "Love is the only power that can make the world better"
+      },
+      "courage": {
+        "title": "Courage",
+        "description": "Examining one's inner self is true bravery"
+      },
+      "change": {
+        "title": "Change",
+        "description": "Change is the only constant"
+      },
+      "persist_in": {
+        "title": "Perseverance",
+        "description": "Life's miracles often come from persistent effort"
+      },
+      "wisdom": {
+        "title": "Wisdom",
+        "description": "The ultimate purpose of wisdom is application, not accumulation"
+      },
+      "study": {
+        "title": "Learning",
+        "description": "Why do we learn?"
+      }
+    },
+    "QUOTE_STYLES": {
+      "hope": {
+        "title": "Hope",
+        "description": "It is always darkest before dawn",
+        "author": "Thomas Fuller"
+      },
+      "happiness": {
+        "title": "Happiness",
+        "description": "Happiness depends on ourselves",
+        "author": "Aristotle"
+      },
+      "reflect": {
+        "title": "Reflection",
+        "description": "The unexamined life is not worth living",
+        "author": "Socrates"
+      },
+      "think": {
+        "title": "Thinking",
+        "description": "I think, therefore I am",
+        "author": "Descartes"
+      },
+      "motivate": {
+        "title": "Motivation",
+        "description": "Hope is a powerful motivational tool",
+        "author": "Nick Vujicic"
+      },
+      "dream": {
+        "title": "Dream",
+        "description": "A life without dreams is pale",
+        "author": "Carl Sandburg"
+      },
+      "power": {
+        "title": "Power",
+        "description": "Give me a lever and I will move the world",
+        "author": "Archimedes"
+      },
+      "opportunity": {
+        "title": "Opportunity",
+        "description": "Opportunities are hidden in difficulties",
+        "author": "Einstein"
+      },
+      "courage": {
+        "title": "Courage",
+        "description": "The only thing we have to fear is fear itself",
+        "author": "Franklin Roosevelt"
+      },
+      "tough": {
+        "title": "Resilience",
+        "description": "What doesn't kill us makes us stronger",
+        "author": "Nietzsche"
+      }
+    }
+  },
+  "fonts": {
+    "huiwenmingchao": "Huiwen Mincho Font",
+    "xingshu": "Running Script",
+    "songti": "Song Font",
+    "heiti": "Heiti Font"
+  },
+  "action": {
+    "download_as_png": "Download as PNG",
+    "download_as_html": "Download as HTML",
+    "delete": "Delete",
+    "change_style": "Change Style"
+  },
+  "status": {
+    "generating": "Generating",
+    "generating_failed": "Generating failed",
+    "generating_success": "Generating success",
+    "downloading": "Downloading"
+  },
+  "home": {
+    "header": {
+      "title": "AI Card Generation"
+    }
+  },
+  "switch_title": {
+    "knowledge_card": "Knowledge Card",
+    "poster": "Poster",
+    "philosophy_card": "Philosophy Card",
+    "quote_card": "Quote Card",
+    "based_on_input": "Based on Input",
+    "extract_quote": "Extract Quote"
+  },
+  "toast": {
+    "task_limit_reached": "Task limit reached ({limit}), please try again later",
+    "generation_failed": "Generation failed, please try again",
+    "download_failed": "Download failed, please try again",
+    "download_success": "downloaded successfully",
+    "author_required": "Please enter the quote signature",
+    "custom_style_required": "Please enter the custom style",
+    "model_required": "Please select the model",
+    "style_required": "Please select the style",
+    "text_position_required": "Please select the text position",
+    "quote_content_required": "Please enter the quote content",
+    "content_required": "Please enter the content",
+    "change_style_required": "Please enter the style description",
+    "qr_code_required": "Please enter the QR code content",
+    "date_required": "Please select the date",
+    "deploy_failed": "Deploy failed, please try again",
+    "deploy_success": "Deploy successfully",
+    "deploying": "Deploying...",
+    "qr_code_upload_failed": "QR code upload failed, please try again"
+  },
+  "placeholder": {
+    "based_on_input": "Please enter the theme or article, AI generates cards based on the input...",
+    "extract_quote": "Please enter the theme or article, AI extracts quotes to create...",
+    "poster": "Please enter the promotional poster content...",
+    "philosophy_card": "Please enter the philosophy theme...",
+    "quote_card": "Please enter the quote or quote...",
+    "select_text_position": "Please select the text position",
+    "input_content": "Please enter the content",
+    "input_style": "Please enter the card style e.g. simple modern style, simple text layout, simple graphic elements or lines",
+    "pick_a_date": "Please select a date"
+  },
+  "label": {
+    "model_select": "Model Selection",
+    "date_display": "Date Display",
+    "qr_code": "QR Code",
+    "style_setting": "Style Setting",
+    "quote_signature": "Quote Signature",
+    "text_position": "Text Position",
+    "knowledge-card": "Knowledge Card Preview",
+    "philosophical-card": "Philosophical Card Preview",
+    "quote-reference": "Quote Card Preview",
+    "promotional-poster": "Poster Preview",
+    "change_style": "Change Style",
+    "change_style_placeholder": "Please enter the style description you want to change...",
+    "generate_new_style": "Generate New Style",
+    "upload_qr_code": "Click or drag image to upload",
+    "edit_html": "Edit HTML"
+  },
+  "button": {
+    "generate": "Generate",
+    "generating_with_count": "Generating ({count}/{limit})",
+    "generating_limit_reached": "Limit reached ({count}/{limit})",
+    "generating": "Generating",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "retry": "Retry",
+    "edit": "Edit",
+    "deploy": "Deploy",
+    "style": "Style",
+    "download": "Download",
+    "download_svg": "Download SVG"
+  },
+  "select": {
+    "not_display": "Not Display",
+    "image_upload": "Image Upload",
+    "generate": "Generate",
+    "random": "Random",
+    "template": "Template",
+    "custom": "Custom",
+    "left": "Left Align",
+    "center": "Center Align",
+    "right": "Right Align"
+  },
+  "global": {
+    "error": {
+      "code-10001": "302 APIキーがありません",
+      "code-10002": "このツールは無効化/削除されています。詳細は <Gw>302.AI</Gw> をご覧ください。",
+      "code-10003": "ネットワークエラー、後でもう一度お試しください。",
+      "code-10004": "アカウント残高が不足しています。独自のツールを作成するには、 <Gw>302.AI</Gw> をご覧ください。",
+      "code-10005": "アカウントの資格情報が期限切れです。再度ログインしてください。",
+      "code-10006": "アカウントの総限度額に達しました。詳細は <Gw>302.AI</Gw> をご覧ください。",
+      "code-10007": "アカウントの日次限度額に達しました。詳細は <Gw>302.AI</Gw> をご覧ください。",
+      "code-10008": "現在利用可能なチャネルはありません。詳細は <Gw>302.AI</Gw> をご覧ください。",
+      "code-10009": "現在のAPI機能はサポートされていません。詳細は <Gw>302.AI</Gw> をご覧ください。",
+      "code-10010": "リソースが見つかりませんでした。詳細は <Gw>302.AI</Gw> をご覧ください。",
+      "code-10011": "無効なリクエスト",
+      "code-10012": "この無料ツールは今時間の上限に達しました。 <Gw>302.AI</Gw> を訪問して自分のツールを作成してください",
+      "code-10018": "アカウントの月次限度額に達しました。詳細は <Gw>302.AI</Gw> をご覧ください",
+      "code-1024": "AIインターフェース接続がタイムアウトしました。しばらくしてから再試行するか、<Gw>302.AI</Gw>に連絡してください。",
+      "code_invalid": "Invalid sharing code. For more information, visit 302.AI",
+      "copy_failed": "Copy failed",
+      "network_error": "Network service error, please check the network status or try again later!",
+      "not_found": "Page does not exist",
+      "tool_deleted": "This tool has been deleted, please visit <site>302.AI</site> for more information",
+      "tool_disabled": "This tool has been disabled, please visit <site>302.AI</site> for more information",
+      "unknown_error": "An unknown error occurred, please contact customer service"
+    },
+    "footer": {
+      "copyright_content": "Powered by <logo></logo>",
+      "copyright_leading": "Content is generated by AI and is for reference only"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "Switch language"
+      },
+      "theme_switcher": {
+        "dark": "Dark",
+        "light": "Light",
+        "system": "System",
+        "toggle_theme": "switch theme"
+      },
+      "tool_info": {
+        "description": "Current tool related information",
+        "title": "About",
+        "trigger": {
+          "label": "Open/Close Tool Information Popup"
+        }
+      }
+    },
+    "input_based": {
+      "title": "Photography",
+      "content": "The Art of Photography"
+    },
+    "extract_key": {
+      "title": "Life",
+      "content": "The breeze in the mountains gently caresses my face, bringing the fragrance of the soil. Recalling an ancient saying: 'One flower, one world; one leaf, one bodhi.' This makes me understand that every small existence in life is worth cherishing."
+    }
+  },
+  "examples": {
+    "card_1": {
+      "input_based": {
+        "title": "Photography",
+        "content": "The Art of Photography"
+      },
+      "extract_key": {
+        "title": "Life",
+        "content": "The breeze in the mountains gently caresses my face, bringing the fragrance of the soil. Recalling an ancient saying: 'One flower, one world; one leaf, one bodhi.' This makes me understand that every small existence in life is worth cherishing."
+      }
+    },
+    "card_2": {
+      "input_based": {
+        "title": "Calligraphy",
+        "content": "The Beauty of Calligraphy"
+      },
+      "extract_key": {
+        "title": "Breakthrough",
+        "content": "Evening in the fields, waves of rice rolling. I remember my grandfather saying: 'A seed must experience darkness before it can break through the soil.' This tells us that growth is inevitably accompanied by challenges and breakthroughs."
+      }
+    },
+    "card_3": {
+      "input_based": {
+        "title": "Life",
+        "content": "The Wisdom of Life"
+      },
+      "extract_key": {
+        "title": "Inclusiveness",
+        "content": "Standing by the sea watching the tides rise and fall, my heart is incredibly peaceful. The ancients said: 'The sea embraces all rivers; greatness lies in capacity.' This inspires us to face life with an open mind, embracing and accepting different people and things."
+      }
+    },
+    "card_4": {
+      "input_based": {
+        "title": "Life",
+        "content": "The Wisdom of Life"
+      },
+      "extract_key": {
+        "title": "Inclusiveness",
+        "content": "Standing by the sea watching the tides rise and fall, my heart is incredibly peaceful. The ancients said: 'The sea embraces all rivers; greatness lies in capacity.' This inspires us to face life with an open mind, embracing and accepting different people and things."
+      }
+    },
+    "card_5": {
+      "input_based": {
+        "title": "Dream",
+        "content": "The Power of Dreams"
+      },
+      "extract_key": {
+        "title": "Courage",
+        "content": "Walking in the dawn, dewdrops crystal clear. Someone once said: 'Life will not shortchange anyone who strives upward.' This gave me the courage to continue forward when facing difficulties."
+      }
+    },
+    "card_6": {
+      "input_based": {
+        "title": "Time",
+        "content": "The Traces of Time"
+      },
+      "extract_key": {
+        "title": "Action",
+        "content": "Morning sunlight shines through the window into the room, starting a beautiful day. I remember my master saying: 'The best time to plant a tree was ten years ago, the second best is now.' This made me understand that it's never too late to take action."
+      }
+    },
+    "card_7": {
+      "input_based": {
+        "title": "Reading",
+        "content": "The Beauty of Reading"
+      },
+      "extract_key": {
+        "title": "Limitation",
+        "content": "Standing on the mountaintop looking into the distance, the sea of clouds rolling magnificently. Zhuangzi said: 'A frog in a well cannot discuss the ocean; a summer insect cannot discuss ice.' Reminding us to broaden our horizons and break through limitations."
+      }
+    },
+    "card_8": {
+      "input_based": {
+        "title": "Youth",
+        "content": "The Prime of Youth"
+      },
+      "extract_key": {
+        "title": "Test",
+        "content": "Spring rain nourishes the growth of all things. Remember that saying: 'The sharpness of a sword comes from grinding; the fragrance of plum blossoms comes from the bitter cold.' This tells us that success often requires setbacks and tests."
+      }
+    },
+    "card_9": {
+      "input_based": {
+        "title": "Happiness",
+        "content": "The Truth of Happiness"
+      },
+      "extract_key": {
+        "title": "Cultivation",
+        "content": "Spring breeze on my face, looking at the blooming flowers in the yard. The elder often said: 'You reap what you sow.' Every effort in life will bloom and bear fruit at some point in the future."
+      }
+    },
+    "card_10": {
+      "input_based": {
+        "title": "Freedom",
+        "content": "The Realm of Freedom"
+      },
+      "extract_key": {
+        "title": "Life",
+        "content": "The air after rain is especially fresh, making one feel carefree. There's a good saying: 'Life is like a book, the foolish flip through it casually, the wise read it carefully.' This teaches us to feel the beauty of life with our hearts."
+      }
+    },
+    "card_11": {
+      "input_based": {
+        "title": "Travel",
+        "content": "The Meaning of Travel"
+      },
+      "extract_key": {
+        "title": "Adversity",
+        "content": "Walking on the forest path in autumn, leaves falling. Recalling that saying: 'Without experiencing the bone-chilling cold, how can one smell the fragrance of plum blossoms?' The most beautiful scenery in life is often seen after experiencing adversity."
+      }
+    },
+    "card_12": {
+      "input_based": {
+        "title": "Music",
+        "content": "The Revival of Classical Music"
+      },
+      "extract_key": {
+        "title": "Ideal",
+        "content": "Sitting in the study reading, birds chirping happily outside the window. Su Shi said: 'Those who accomplish great things in ancient times not only had extraordinary talent but also unshakable determination.' This encourages me never to give up in pursuing my ideals."
+      }
+    },
+    "card_13": {
+      "input_based": {
+        "title": "Digital",
+        "content": "The Maze of Digital Identity"
+      },
+      "extract_key": {
+        "title": "Strength",
+        "content": "As night falls, the city's neon lights flicker. Remember that saying: 'Nine out of ten things in life don't go as wished; I hope you become strong enough not to need to pour out your grievances.' This teaches us to learn to stay strong in adversity and continue moving forward."
+      }
+    }
+  }
+}
